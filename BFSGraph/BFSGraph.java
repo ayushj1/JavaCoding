@@ -5,7 +5,7 @@ public class BFSGraph {
     private LinkedList<Integer>[] adj;
 
     public BFSGraph (int v) {
-        this.V = v;
+        V = v;
         adj = new LinkedList[v];
         for(int i=0; i<v; i++) {
             adj[i] = new LinkedList<Integer>();
